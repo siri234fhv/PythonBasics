@@ -1,0 +1,10 @@
+with open("stud3.data","a+") as fp:
+    print("File Created and opened in write mode")
+    print("Type of fp=",type(fp))
+    print("File Name:",fp.name)
+    print("File Mode:",fp.mode)
+    print("Is File Readable=",fp.readable())
+    print("Is File Writable=",fp.writable())
+    print("Is File closed=",fp.closed)
+    print("-------------------------------")
+print("Is File closed=",fp.closed)
